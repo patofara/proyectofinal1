@@ -1,0 +1,53 @@
+.centro{
+    position: relative;
+    padding-top: 23%;
+}
+.fondo1{
+    padding-top: 1%;
+    background-image: linear-gradient(#0000FF , #0000A3);
+    min-width: 100%;
+    height: 65%;
+    max-height: 65%;
+    position: absolute;
+    transform: skew(0, -4deg);
+    z-index: -1;
+    margin-left: -9px;
+}
+.episodios{
+    margin-left: 19%;
+    padding-top: 10%;
+    color: white;
+    font-size: 2.2rem;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.img_episodios iframe{
+    width: 95%;
+    height: 33vh;
+    border: 0;
+    padding-bottom: -20%;
+ }
+.container_phone{
+    padding-top: 10%;
+    width: 100%;
+    height: 120vh;
+}
+.img_phone {
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+}
+.container_parrafo2{
+    width: 100%;
+    padding: 0px;
+}
+.container_parrafo2 p{
+    width: 95%;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 1.3rem;
+}
+.container_parrafo2 h3{
+    width: 50%;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 2.3rem;
+}

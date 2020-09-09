@@ -1,0 +1,40 @@
+.boton1{
+    width: 100%;
+    margin-left: 0px;
+    font-size: 1.5rem;
+  }
+ div h1{
+    margin: 0px;
+    padding-top: 10%;
+    width: 90%;
+    letter-spacing: 2px;
+    font-size: 2.5rem;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #060A24;
+ }
+.titulo p{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-size: 1rem;
+    font-family: 'IBM Plex Mono', monospace;
+ 
+}
+.boton1{
+    font-size: 1.5rem;
+    margin-left: 0px;
+    height: 7vh;
+    width: 100%;
+    background-color:rgba(0,243,187,1);
+    opacity: 0.8;
+    border: none;
+    font-weight: bold;
+    font-family: 'IBM Plex Mono', monospace;
+}
+.div_boton1{
+    height: 70px;
+    padding-top: 50px;
+}
+.boton1:hover{
+    opacity: 0.3;
+}
