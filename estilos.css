@@ -506,7 +506,7 @@ input[type="checkbox"]:checked ~ ul {
 
 @media screen and (min-width: 1024px) {
   .menu ul li {
-    padding: 2% 5% 0 0;
+    padding: 1% 5% 0 0;
   }
   header h1 {
     font-size: 3rem;
