@@ -1,0 +1,19 @@
+.prefooter h3{
+    @include titulos;
+    @include margenes;
+    width: 90%;
+}
+.lista_prefooter{
+    list-style: none;
+    text-align: center;
+    padding-inline-start: 0px;
+    padding-bottom: 9%;
+}
+.lista_prefooter p{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 1.5rem;
+    color: #060A24;
+    letter-spacing: 0;
+    font-weight: bold;
+    padding: 0 3.4% 0 3.4%;
+}

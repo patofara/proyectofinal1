@@ -1,0 +1,203 @@
+@media screen and (min-width : 768px){
+   
+    #margenes{
+        margin-left: 16%;
+        margin-right: 16%;
+    }
+    
+    
+    // NAV!!
+    nav{
+        padding: 2% 8% 0 8%;
+    }
+    .menu{
+        margin-top: 0vh;
+        width: 80%;
+    }
+    .menu input, 
+     .menu span{
+        display: none;
+    }
+    .menu ul{
+        transform: translate(0);
+        text-align: right;
+
+    }
+    .menu ul li{
+        display: inline-block;
+        padding: 1% 3% 0 0;
+    }
+    
+    // HEADER!!
+    header {
+        padding-top: 8%;
+        height: 65vh;
+    }       
+    header h1{
+        font-size: 2.3rem;
+        line-height: 0px;
+        letter-spacing: 5px;
+        width: 100%;
+    }
+    .parrafo1{
+        width: 70%;
+    }
+    .div_boton1{
+        padding-top: 5%;
+        width: 40%;
+        height: 15vh;
+    }
+    
+    
+    // CENTRO!!
+    .episodios{
+        font-size: 3rem;
+    }
+    .spotify_episodios{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        flex-wrap: wrap;
+        padding: 0px 8% 0px 8%;
+        height: 100vh;
+    }
+    .spotify_episodios iframe{
+        width: 50%;
+        min-height: 50vh;
+    }
+    .container_phone_parrafo{
+        display: flex;
+        justify-content: space-around;
+    }
+    .container_phone{
+        height: 140vh;
+        text-align: center;
+    }
+    .container_phone img{
+        height: 95%;
+        padding-top: 22%;
+        width: 80%;
+
+    }
+    
+    .container_parrafo2{
+        width: 50%;
+        padding-top: 42vh;
+    }
+    .container_parrafo2 h3{
+        font-size: 2.5rem;
+        width: 90%;
+    }
+    .container_parrafo2 p{
+        width: 90%;
+        font-size: 0.9rem;
+        letter-spacing: 0;
+        line-height: 20px;
+    }
+    
+    
+    // GRID!!
+    .grid h3{
+        font-size: 3rem;
+    }
+    .grilla{
+        display: grid;
+        grid-template-columns: repeat(3, 33.33%);
+        grid-template-rows: repeat(2, 1fr);
+    }
+    
+    
+    // PREFOOTER!!
+    .prefooter h3{
+        font-size: 3rem;
+        width: 80%;
+    }
+    .lista_prefooter{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 5% 4% 12% 4%;
+    }
+    .lista_prefooter li{
+        width: 18vw;
+    }
+    
+    
+    // FOOTER!!
+    .fondo2:before{
+        top: -13vh;
+        height: 40vh;
+    }
+    .fondo2 p{
+        font-size: 3rem;
+    }
+    .div_boton2{
+        width: 75%;
+        padding-right: 0px;
+        padding-left: 25%;
+        height: 10vh;
+    }
+    .pie{
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 8% 0px 8%;
+    }
+    .pie p{
+        text-align: left;
+        font-size: 1.3rem;
+    }
+    .pie ul{
+        padding-right: 7%;
+    }
+    .pie ul li{
+        padding: 10% 0 0 50%;
+    }
+    .pie ul li:hover{
+        padding-top: 6%;
+    }
+
+
+}
+    // DESKTOP
+
+@media screen and (min-width : 1024px){
+    .menu ul li{
+        padding: 2% 5% 0 0;
+    }
+    header h1{
+        font-size: 3rem;
+    }
+    .div_boton1{
+        width: 25%;
+    }
+    .spotify_episodios iframe{
+        width: 50%;
+        min-height: 40vh;
+    }
+    .container_parrafo2 h3{
+        font-size: 3rem;
+        width: 90%;
+    }
+    .container_parrafo2 p{
+        width: 60%;
+        font-size: 1rem;
+        letter-spacing: 0;
+        line-height: 24px;
+    }
+    .container_phone_parrafo{
+        display: flex;
+        justify-content: space-between;
+    }
+    .container_phone{
+        height: 120vh;
+        text-align: right;
+    }
+    .container_phone img{
+        padding-top: 12%;
+     
+    }
+    .div_boton2{
+        width: 62%;
+        padding-right: 0px;
+        padding-left: 38%;
+    }
+}

@@ -1,53 +1,45 @@
-.centro{
+.container_fondo{
     position: relative;
-    padding-top: 23%;
 }
 .fondo1{
-    padding-top: 1%;
+    height: 177vh;
     background-image: linear-gradient(#0000FF , #0000A3);
+    width: 100%;
     min-width: 100%;
-    height: 65%;
-    max-height: 65%;
     position: absolute;
-    transform: skew(0, -4deg);
-    z-index: -1;
-    margin-left: -9px;
+    transform: skew(0, -5deg);
+    z-index: -2;
 }
+
 .episodios{
-    margin-left: 19%;
     padding-top: 10%;
     color: white;
     font-size: 2.2rem;
     font-family: 'IBM Plex Sans', sans-serif;
 }
-
-.img_episodios iframe{
-    width: 95%;
-    height: 33vh;
-    border: 0;
-    padding-bottom: -20%;
- }
+.spotify_episodios iframe{
+    border: none;
+    width: 100%;
+    height: 30vh;
+    padding: 0px 2% 0px 2%;
+}
 .container_phone{
-    padding-top: 10%;
-    width: 100%;
-    height: 120vh;
+    height: 100vh;
 }
-.img_phone {
-    padding: 0px;
+.container_phone img{
+    height: 100vh;
     width: 100%;
-    height: 100%;
+    padding-top: 10vh;
 }
-.container_parrafo2{
-    width: 100%;
-    padding: 0px;
+.container_parrafo2 h3{
+    width: 50%;
+    @include titulos;
+    @include margenes;
+
 }
 .container_parrafo2 p{
     width: 95%;
     font-family: 'IBM Plex Mono', monospace;
-    font-size: 1.3rem;
-}
-.container_parrafo2 h3{
-    width: 50%;
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 2.3rem;
+    font-size: 0.9rem;
+    @include margenes;
 }

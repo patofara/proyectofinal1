@@ -1,8 +1,11 @@
-.grids{
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-}       
-.grids img{
+.grid h3{
+    @include titulos;
+    @include margenes;
+}
+.grilla img{
     width: 100%;
+}
+.grilla{
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
 }
