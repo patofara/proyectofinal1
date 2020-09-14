@@ -15,7 +15,7 @@ nav{
     list-style: none;
     text-align: center;
     overflow: hidden;
-    transform: translateX(100%);
+    transform: translateY(-120%);
     transition: transform 0.5s ease;
 }
 .menu ul li{
@@ -30,6 +30,7 @@ nav{
 .menu ul li a:hover{
     text-decoration: underline;
     opacity: 0.8;
+
 }
 input[type="checkbox"]:checked ~ ul {
     transform: translateX(0);

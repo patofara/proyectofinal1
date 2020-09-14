@@ -80,8 +80,8 @@ nav {
   list-style: none;
   text-align: center;
   overflow: hidden;
-  -webkit-transform: translateX(100%);
-          transform: translateX(100%);
+  -webkit-transform: translateY(-120%);
+          transform: translateY(-120%);
   -webkit-transition: -webkit-transform 0.5s ease;
   transition: -webkit-transform 0.5s ease;
   transition: transform 0.5s ease;
