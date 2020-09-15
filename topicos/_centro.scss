@@ -34,12 +34,10 @@
 .container_parrafo2 h3{
     width: 50%;
     @include titulos;
-    @include margenes;
 
 }
 .container_parrafo2 p{
     width: 95%;
     font-family: 'IBM Plex Mono', monospace;
     font-size: 0.9rem;
-    @include margenes;
 }

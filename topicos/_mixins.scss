@@ -4,11 +4,7 @@
 :root{
     font-size: 14px;
 }
-#margenes{
-    margin-left: 2%;
-    margin-right: 2%;
-}
-@mixin margenes {
+.margenes{
     margin-left: 2%;
     margin-right: 2%;
 }

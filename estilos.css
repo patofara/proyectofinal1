@@ -7,7 +7,7 @@
   font-size: 14px;
 }
 
-#margenes {
+.margenes {
   margin-left: 2%;
   margin-right: 2%;
 }
@@ -61,8 +61,6 @@ header h1 {
 }
 
 nav {
-  margin-left: 2%;
-  margin-right: 2%;
   position: relative;
 }
 
@@ -214,24 +212,18 @@ input[type="checkbox"]:checked ~ ul {
   font-family: 'IBM Plex Sans', sans-serif;
   font-size: 2.2rem;
   font-weight: normal;
-  margin-left: 2%;
-  margin-right: 2%;
 }
 
 .container_parrafo2 p {
   width: 95%;
   font-family: 'IBM Plex Mono', monospace;
   font-size: 0.9rem;
-  margin-left: 2%;
-  margin-right: 2%;
 }
 
 .grid h3 {
   font-family: 'IBM Plex Sans', sans-serif;
   font-size: 2.2rem;
   font-weight: normal;
-  margin-left: 2%;
-  margin-right: 2%;
 }
 
 .grilla img {
@@ -243,14 +235,14 @@ input[type="checkbox"]:checked ~ ul {
   display: grid;
   -ms-grid-rows: (1fr)[6];
       grid-template-rows: repeat(6, 1fr);
+  margin-left: -7px;
+  width: 105%;
 }
 
 .prefooter h3 {
   font-family: 'IBM Plex Sans', sans-serif;
   font-size: 2.2rem;
   font-weight: normal;
-  margin-left: 2%;
-  margin-right: 2%;
   width: 90%;
 }
 
@@ -348,7 +340,7 @@ input[type="checkbox"]:checked ~ ul {
 }
 
 @media screen and (min-width: 768px) {
-  #margenes {
+  .margenes {
     margin-left: 16%;
     margin-right: 16%;
   }
@@ -450,6 +442,8 @@ input[type="checkbox"]:checked ~ ul {
         grid-template-columns: repeat(3, 33.33%);
     -ms-grid-rows: (1fr)[2];
         grid-template-rows: repeat(2, 1fr);
+    margin-left: -8px;
+    width: 101.2%;
   }
   .prefooter h3 {
     font-size: 3rem;
