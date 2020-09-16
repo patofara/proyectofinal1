@@ -19,17 +19,11 @@ nav{
 }
 .menu ul li{
     padding-bottom: 5%;
-    position: relative;
 }
 .menu ul li a{
     text-decoration: none;
     display: block;
     font-family: 'IBM Plex Mono', monospace;
-}
-.menu ul li a:hover{
-    text-decoration: underline;
-    opacity: 0.8;
-
 }
 input[type="checkbox"]:checked ~ ul {
     transform: translateX(0);
@@ -69,11 +63,11 @@ input[type="checkbox"]:checked ~ ul {
     opacity: 1;
     transform: rotate(45deg) translate(2px, 1px);
 }
-.menu input:checked ~ span:nth-last-child(3) {
+.menu input:checked ~ :nth-child(3) {
     opacity: 0;
     transform: rotate(0deg) scale(0.2, 0.2);
 }
-.menu input:checked ~ span:nth-last-child(2) {
+.menu input:checked ~ :nth-child(4) {
     transform: rotate(-45deg) translate(1px, 0px);
     
 }
